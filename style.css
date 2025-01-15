@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+header {
+    border: 5px solid white;
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+
+nav {
+    border: 5px solid white;
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+
+main {
+    border: 5px solid white;
+    padding: 2vw;
+    margin-bottom: 1vw;
+}
+
+section {
+    border: 5px solid white;
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+
+footer {
+    border: 5px solid white;
+    padding: 1vw;
+    margin-bottom: 1vw;
+}
+
+#cookie-list li {
+    list-style-type: none;
+}
+
+#cookie-list li::before {
+    content: "🍪 ";
+}
