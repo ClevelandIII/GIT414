@@ -1,36 +1,180 @@
-body{
-    background-color: black;
-    color: white;
+/* Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Root */
+:root {
+    --light-brown: #d9c4a3;
+    --dark-brown: #704214;
+    --brown: #c27d45;
+}
+
+/* Global Styles */
+body {
+    display: grid;
+    background-color: var(--brown);
+    color: var(--brown);
+}
+
+a {
+    color: var(--brown);
 }
 
 header {
-    border: 5px solid white;
+    background-color: var(--dark-brown);
     padding: 1vw;
-    margin-bottom: 1vw;
+    margin: 1vw;
 }
 
 nav {
-    border: 5px solid white;
+    background-color: var(--dark-brown);
     padding: 1vw;
-    margin-bottom: 1vw;
+    margin: 1vw;
 }
 
 main {
-    border: 5px solid white;
+    background-color: var(--dark-brown);
     padding: 2vw;
-    margin-bottom: 1vw;
+    margin: 1vw;
 }
 
 section {
-    border: 5px solid white;
+    border: 5px solid var(--brown);
     padding: 1vw;
-    margin-bottom: 1vw;
+    margin: 1vw;
 }
 
 footer {
-    border: 5px solid white;
+    background-color: var(--dark-brown);
     padding: 1vw;
-    margin-bottom: 1vw;
+    margin: 1vw;
 }
 
 #cookie-list li {
@@ -40,3 +184,9 @@ footer {
 #cookie-list li::before {
     content: "🍪 ";
 }
+
+/* Medium */
+
+/* Large */
+
+/* XL */
